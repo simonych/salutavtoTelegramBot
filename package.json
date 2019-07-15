@@ -1,0 +1,26 @@
+{
+  "name": "salutavtotelegrambot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js debug",
+    "start": "node --inspect index.js debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonych/salutavtoTelegramBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonych/salutavtoTelegramBot/issues"
+  },
+  "homepage": "https://github.com/simonych/salutavtoTelegramBot#readme",
+  "dependencies": {
+    "cuba": "^0.2.0",
+    "googleapis": "^41.0.0",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
